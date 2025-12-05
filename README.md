@@ -1,3 +1,5 @@
+Réalisé par Maidhine Benaissaoui
+
 Examen R Shiny : Reproduction d'Application
 
 Ce dépôt contient le code source pour l'examen de programmation R Shiny.
