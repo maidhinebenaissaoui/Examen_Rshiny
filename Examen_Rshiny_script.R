@@ -10,7 +10,7 @@ data("diamonds")
 
 #UI
 ui <- page_fluid(
-  theme = bs_theme(version = 4 , bootswatch = "minty"), 
+  theme = bs_theme(version = 5 , bootswatch = "litera"), 
   titlePanel("Exploration Diamonds"),  #Titre de l'app
   
   sidebarLayout(                      #Partie avec le choix des couleurs/ prix et slide bar 
@@ -31,6 +31,7 @@ ui <- page_fluid(
                   max = 20000,
                   value = 5000),
       
+
       actionButton(inputId = "bouton_visu_graph",
                    label = "Visualiser le graph")
      
@@ -104,3 +105,4 @@ shinyApp(ui = ui, server = server)
       
       
       
+
