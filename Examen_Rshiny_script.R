@@ -31,6 +31,7 @@ ui <- page_fluid(
                   max = 20000,
                   value = 5000),
       
+
       actionButton(inputId = "bouton_visu_graph",
                    label = "Visualiser le graph")
      
@@ -104,3 +105,4 @@ shinyApp(ui = ui, server = server)
       
       
       
+
